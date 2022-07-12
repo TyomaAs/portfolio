@@ -4,7 +4,7 @@ let header =
 	`<header class="header">
 	<div class="header__container">
 		<div class="header__logo">
-			<a href="index.html" title="На головну"><img src="https://github.com/TyomaAs/portfolio/blob/225a5f19510f351afdd007c7f90b323caac228c8/Project/img/icon/logo/logo.JPG" alt="Logo"></a>
+			<a href="index.html" title="На головну"><img src="img/icon/logo/logo.JPG" alt="Logo"></a>
 		</div>
 		<div class="header__title-search">
 			<div class="header__title">
