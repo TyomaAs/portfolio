@@ -20,10 +20,10 @@ const header =
 			</div>
 			<div class="navigation__body">
 				<ul class="navigation__list">
-					<li><a href="#" class="navigation__link">Головна</a></li>
-					<li><a href="#" class="navigation__link">Новини</a></li>
-					<li><a href="#" class="navigation__link">Роботи</a></li>
-					<li><a href="#" class="navigation__link">Зв'язок</a></li>
+					<li><a href="index.html" class="navigation__link">Головна</a></li>
+					<li><a href="news.html" class="navigation__link">Новини</a></li>
+					<li><a href="my-works.html" class="navigation__link">Роботи</a></li>
+					<li><a href="contact.html" class="navigation__link">Зв'язок</a></li>
 				</ul>
 			</div>
 		</div>
