@@ -1,0 +1,44 @@
+// Файл обнуляющих стилей
+@import "nullstyle";
+@import "_header";
+@import "_footer";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Smooch&display=swap');
+// Переменные для блока
+$fz: 100px;
+$color_1: #000;
+$color_2: #fff;
+
+html {
+	font-family: 'Smooch', cursive;
+	font-size: 18px;
+}
+
+// для начала сайта
+// font-family: 'Manrope', sans-serif;
+// font-family: 'Smooch', cursive;
+
+.header,
+.footer {
+	min-height: 90px;
+	background-color: #333;
+}
+
+.wraper {
+	display: flex;
+	min-height: 100vh;
+}
+
+.main {
+	flex: 1 0 calc(100vh - 180px);
+	height: 1000px;
+	background-color: #000
+}
+
+.header__logo {
+	width: 70px;
+	height: 70px;
+	img {
+		width: 70px;
+		height: 70px;
+	}
+}

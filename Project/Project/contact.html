@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Contact</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 user-scrable=0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/icon/head/logo.png" type="image/png">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<form action="#" method="get" class="form">
+				<div class="form__paragraph form__name">
+					<div class="paragraph__title">Ім'я</div>
+					<div class="paragraph__value"><input tabindex="1" type="text" class="paragraph__input name"></div>
+				</div>
+				<div class="form__paragraph form__surname">
+					<div class="paragraph__title">Прізвище</div>
+					<div class="paragraph__value"><input tabindex="2" type="text" class="paragraph__input surname"></div>
+				</div>
+				<div class="form__paragraph form__tel">
+					<div class="paragraph__title">Телефон</div>
+					<div class="paragraph__value"><input tabindex="3" type="text" class="paragraph__input tel"></div>
+				</div>
+				<div class="form__paragraph form__e-mail">
+					<div class="paragraph__title">E-mail</div>
+					<div class="paragraph__value"><input tabindex="4" type="text" class="paragraph__input e-mail"></div>
+				</div>
+				<div class="form__paragraph form__town">
+					<div class="paragraph__title">Місто</div>
+					<div class="paragraph__value"><input tabindex="5" type="text" class="paragraph__input town"></div>
+				</div>
+				<div class="form__paragraph form__reason">
+					<div class="paragraph__title">Мета звернення</div>
+					<div class="paragraph__value">
+						<select tabindex="6" class="paragraph__select reason">
+							<option class="paragraph__option" value="order" default>Замовлення</option>
+							<option class="paragraph__option" value="help">Допомога</option>
+							<option class="paragraph__option" value="else">Інше</option>
+						</select>
+					</div>
+				</div>
+				<div class="form__paragraph form__about">
+					<div class="paragraph__title">Опис звернення</div>
+					<div class="paragraph__value">
+						<textarea tabindex="7" name="about" cols="30" rows="10"
+							class="paragraph__input textarea__about"></textarea>
+					</div>
+				</div>
+				<div class="form__button"><button tabindex="8" type="submit" class="button__send">Відправити</button></div>
+			</form>
+			<div class="form__more">Ви можете звернутись також в ці месенджери</div>
+		</main>
+	</div>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/footer.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
