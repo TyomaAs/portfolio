@@ -10,9 +10,6 @@ const header =
 			<div class="header__title">
 				<a href="index.html">Artemii Tsipino</a>
 			</div>
-			<form class="header__search" action="#">
-				<input class="search" name="search" type="text" placeholder="Задати питання" value="">
-			</form>
 		</div>
 		<div class="header__navigation">
 			<div class="navigation__icon">
